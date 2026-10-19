@@ -1,7 +1,7 @@
 {
-  "versao": "1.3.5",
-  "arquivo": "RealceIA-atualizacao-1.3.5.zip",
-  "sha256": "b9d94b61ff8b24e1ee76a27ce45cae9245b21e04b2c7e1cc3f1c5ddccf97f981",
-  "tamanho": 233545,
-  "novidades": "Ícone novo do RealceIA, no padrão dos ícones dos apps da RLA.dev. Ele aparece no cabeçalho, na tela de abertura e no atalho."
+  "versao": "1.3.6",
+  "arquivo": "RealceIA-atualizacao-1.3.6.zip",
+  "sha256": "93902e54bee836b6f5e2b4b4a2ba41b588f463b3a73ec32b19ebb57fb42b2fde",
+  "tamanho": 233553,
+  "novidades": "Corrige o botão Nova análise, que em alguns casos deixava os quadros vazios e a mensagem anterior na tela."
 }

@@ -1,8 +1,8 @@
 {
-  "versao": "1.5.1",
-  "arquivo": "RealceIA-atualizacao-1.5.1.zip",
-  "sha256": "1ae45ee97cac62b4f0628c160e4ce692bffdb075fc7ed5da39fc8e62464376a4",
-  "tamanho": 291376,
-  "novidades": "Mais segurança: só a janela do Realce IA consegue usar o programa. Outros programas e sites abertos no navegador são recusados. A proteção passa a valer depois que você fechar e abrir o Realce IA uma vez.",
+  "versao": "1.5.2",
+  "arquivo": "RealceIA-atualizacao-1.5.2.zip",
+  "sha256": "db3d3f4c3c7c613eeb24ebed6eaa2f2ef0538c116a69d901600640f5a7cbbf16",
+  "tamanho": 291773,
+  "novidades": "Placas no vídeo: durante a análise, mostra quantas placas e veículos já foram encontrados.",
   "lancador_minimo": 2
 }

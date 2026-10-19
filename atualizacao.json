@@ -1,7 +1,7 @@
 {
-  "versao": "1.3.4",
-  "arquivo": "RealceIA-atualizacao-1.3.4.zip",
-  "sha256": "7e4d6897653e9ad7283f1ef685f4ac6311c622e75fc2946fdd01611c2f84a4b2",
-  "tamanho": 112243,
-  "novidades": "Melhorar foto: o quadro Antes e depois mostra a foto inteira, sem cortes e com as duas metades alinhadas.\nA barra de progresso aparece uma vez só e não fica mais por cima do resultado anterior."
+  "versao": "1.3.5",
+  "arquivo": "RealceIA-atualizacao-1.3.5.zip",
+  "sha256": "b9d94b61ff8b24e1ee76a27ce45cae9245b21e04b2c7e1cc3f1c5ddccf97f981",
+  "tamanho": 233545,
+  "novidades": "Ícone novo do RealceIA, no padrão dos ícones dos apps da RLA.dev. Ele aparece no cabeçalho, na tela de abertura e no atalho."
 }

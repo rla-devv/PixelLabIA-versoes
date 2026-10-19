@@ -1,7 +1,7 @@
 {
-  "versao": "1.3.9",
-  "arquivo": "RealceIA-atualizacao-1.3.9.zip",
-  "sha256": "11d481dda21eecee22adf6fbf48d0dd47e502ef4be2c60fae18f63c7109c9061",
-  "tamanho": 349543,
-  "novidades": "O botão de tema mostra o sol no tema escuro e a lua no tema claro.\nTambém traz da 1.3.8: o nome Realce IA, o atalho com o ícone novo e o ícone do app na barra de tarefas."
+  "versao": "1.3.10",
+  "arquivo": "RealceIA-atualizacao-1.3.10.zip",
+  "sha256": "0b5225d2a6bf42051673c31a550f51ade13edcffd7b7e1ddf3455cd78e2577c9",
+  "tamanho": 185307,
+  "novidades": "Pacote do Realce IA menor e com menos arquivos (arquivos de desenvolvimento ficaram de fora)."
 }

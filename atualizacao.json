@@ -1,7 +1,7 @@
 {
-  "versao": "1.3.3",
-  "arquivo": "RealceIA-atualizacao-1.3.3.zip",
-  "sha256": "1262ab334b1b33e895584bcfcef61774eeef01518a8e2bebaa09bd3ded69e05f",
-  "tamanho": 111936,
-  "novidades": "Avisos mais claros, em português e nas cores do app (por exemplo, ao clicar em Melhorar foto sem escolher nenhuma melhoria).\nTambém traz da 1.3.2: o aviso de listras só aparece em fotos de câmera de segurança e o app não confunde mais objetos (como uma roda) com rostos."
+  "versao": "1.3.4",
+  "arquivo": "RealceIA-atualizacao-1.3.4.zip",
+  "sha256": "7e4d6897653e9ad7283f1ef685f4ac6311c622e75fc2946fdd01611c2f84a4b2",
+  "tamanho": 112243,
+  "novidades": "Melhorar foto: o quadro Antes e depois mostra a foto inteira, sem cortes e com as duas metades alinhadas.\nA barra de progresso aparece uma vez só e não fica mais por cima do resultado anterior."
 }

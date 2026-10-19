@@ -1,7 +1,7 @@
 {
-  "versao": "1.2.0",
-  "arquivo": "RealceIA-atualizacao-1.2.0.zip",
-  "sha256": "1cdee6f931eae9caa5b6f368ba5c66ab1b298afbf0b3c01844cf6ad769b964d6",
-  "tamanho": 103459,
-  "novidades": "Atualização automática: o RealceIA avisa quando há versão nova e se atualiza sozinho.\nNova ferramenta Pessoas no vídeo.\nMelhorar foto: preto e branco automático e opção para remover moiré de fotos tiradas da tela."
+  "versao": "1.3.0",
+  "arquivo": "RealceIA-atualizacao-1.3.0.zip",
+  "sha256": "256799c256392c9abd19a8ccd41118cacbb2d7d0da839fe42f135e2fed5a252f",
+  "tamanho": 109984,
+  "novidades": "Arraste a foto ou o vídeo para qualquer lugar da página.\nClique no resultado para ampliar e reduzir (em Melhorar foto, alterne Antes e Depois).\nBotão Nova análise depois de cada resultado.\nVídeos: escolha o trecho para analisar (início e fim) e acompanhe a análise no próprio vídeo.\nNovo indicador de processamento e correção da barra de progresso nas ferramentas de vídeo."
 }

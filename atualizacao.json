@@ -1,7 +1,8 @@
 {
-  "versao": "1.4.0",
-  "arquivo": "RealceIA-atualizacao-1.4.0.zip",
-  "sha256": "682ae0bbc7f8fbdb39759f95ba919f99af2453c97ce26758accdddd468b28b69",
-  "tamanho": 187313,
-  "novidades": "Preparação para a pasta do app mais organizada. Depois de atualizar, feche o Realce IA e abra de novo."
+  "versao": "1.5.0",
+  "arquivo": "RealceIA-atualizacao-1.5.0.zip",
+  "sha256": "29dfef234a44e725faab72277e1f83df3243c1d9a6c14d3aa07ae522a9e99cb4",
+  "tamanho": 289724,
+  "novidades": "Visual novo, no padrão dos apps da RLA.dev.\nPasta do app mais organizada: só instalar.bat, Realce IA.bat, LEIA-ME.txt e a pasta programa.\nPlacas no vídeo: encontra placas pequenas de veículos longe da câmera e segue placas de veículos em movimento; aviso mais claro quando nenhuma placa é encontrada.\nCorreção: os ícones embaixo do vídeo ficavam cortados.",
+  "lancador_minimo": 2
 }

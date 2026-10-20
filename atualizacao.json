@@ -1,8 +1,8 @@
 {
-  "versao": "1.5.4",
-  "arquivo": "RealceIA-atualizacao-1.5.4.zip",
-  "sha256": "da8c498b0ace13f485574e98245bd3f25f4771374a7a6b263967cea77ad3b8df",
-  "tamanho": 293946,
-  "novidades": "A busca e a leitura de placas passam a usar a placa de vídeo do computador (Intel, AMD ou NVIDIA), quando houver. Se ela não funcionar, o Realce IA usa o processador sozinho, com o mesmo resultado. Esta atualização instala um componente novo e pode levar alguns minutos.",
+  "versao": "1.6.0",
+  "arquivo": "PixelLabIA-atualizacao-1.6.0.zip",
+  "sha256": "c230ee3e8c6f9c669b8f6a0e258a3417a176172d2bd02875f21007bdbb101db4",
+  "tamanho": 294048,
+  "novidades": "O Realce IA agora se chama Pixel Lab IA. Os atalhos na Área de Trabalho e no Menu Iniciar são trocados sozinhos. Nada muda nas ferramentas, e seus modelos de IA e arquivos continuam onde estão.",
   "lancador_minimo": 2
 }

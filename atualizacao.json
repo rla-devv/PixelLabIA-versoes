@@ -1,8 +1,8 @@
 {
-  "versao": "1.5.3",
-  "arquivo": "RealceIA-atualizacao-1.5.3.zip",
-  "sha256": "dea8759dbaff78355cd3ac6a299489526d9a42cd908982398243c5936d5b1c1b",
-  "tamanho": 291731,
-  "novidades": "Novo texto em Apoie o projeto.",
+  "versao": "1.5.4",
+  "arquivo": "RealceIA-atualizacao-1.5.4.zip",
+  "sha256": "da8c498b0ace13f485574e98245bd3f25f4771374a7a6b263967cea77ad3b8df",
+  "tamanho": 293946,
+  "novidades": "A busca e a leitura de placas passam a usar a placa de vídeo do computador (Intel, AMD ou NVIDIA), quando houver. Se ela não funcionar, o Realce IA usa o processador sozinho, com o mesmo resultado. Esta atualização instala um componente novo e pode levar alguns minutos.",
   "lancador_minimo": 2
 }

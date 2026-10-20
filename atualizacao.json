@@ -1,8 +1,8 @@
 {
-  "versao": "1.5.2",
-  "arquivo": "RealceIA-atualizacao-1.5.2.zip",
-  "sha256": "db3d3f4c3c7c613eeb24ebed6eaa2f2ef0538c116a69d901600640f5a7cbbf16",
-  "tamanho": 291773,
-  "novidades": "Placas no vídeo: durante a análise, mostra quantas placas e veículos já foram encontrados.",
+  "versao": "1.5.3",
+  "arquivo": "RealceIA-atualizacao-1.5.3.zip",
+  "sha256": "dea8759dbaff78355cd3ac6a299489526d9a42cd908982398243c5936d5b1c1b",
+  "tamanho": 291731,
+  "novidades": "Novo texto em Apoie o projeto.",
   "lancador_minimo": 2
 }

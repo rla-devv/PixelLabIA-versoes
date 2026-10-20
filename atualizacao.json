@@ -1,8 +1,8 @@
 {
-  "versao": "1.6.1",
-  "arquivo": "PixelLabIA-atualizacao-1.6.1.zip",
-  "sha256": "a58e5cfc5b9f1ed761a7d4f3052d6e9f4fb8a75f4610377b4731d5537184d26a",
-  "tamanho": 293905,
-  "novidades": "O Pixel Lab IA agora sempre abre no tema escuro. O botão de tema continua trocando para o claro enquanto o app estiver aberto.",
+  "versao": "1.6.2",
+  "arquivo": "PixelLabIA-atualizacao-1.6.2.zip",
+  "sha256": "6d84592b5c6ab4e29b8ba1af7dd42ee21adaa52dfd2c006b82fd7de4cdfea8bc",
+  "tamanho": 294003,
+  "novidades": "Últimos ajustes do nome Pixel Lab IA: ícone, registro de erros e código da página. Os atalhos são refeitos sozinhos.",
   "lancador_minimo": 2
 }

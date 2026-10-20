@@ -1,8 +1,8 @@
 {
-  "versao": "1.6.4",
-  "arquivo": "PixelLabIA-atualizacao-1.6.4.zip",
-  "sha256": "aba87e9797cd4f58b0006e84f7ef78067efff8dbaec8b04a05f926ceaf6560c5",
-  "tamanho": 294586,
-  "novidades": "Correções e melhorias.",
+  "versao": "1.6.5",
+  "arquivo": "PixelLabIA-atualizacao-1.6.5.zip",
+  "sha256": "400abb0acbc3a584c617a84abe0742fe4e424bc5c105a3ff6228a1f06091d9a2",
+  "tamanho": 294911,
+  "novidades": "Correção: com o Windows no tema claro, a tela piscava clara por um instante ao abrir. Agora o Pixel Lab IA abre escuro desde o início.",
   "lancador_minimo": 2
 }

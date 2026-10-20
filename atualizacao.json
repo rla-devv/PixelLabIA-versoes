@@ -1,8 +1,8 @@
 {
-  "versao": "1.6.0",
-  "arquivo": "PixelLabIA-atualizacao-1.6.0.zip",
-  "sha256": "c230ee3e8c6f9c669b8f6a0e258a3417a176172d2bd02875f21007bdbb101db4",
-  "tamanho": 294048,
-  "novidades": "O Realce IA agora se chama Pixel Lab IA. Os atalhos na Área de Trabalho e no Menu Iniciar são trocados sozinhos. Nada muda nas ferramentas, e seus modelos de IA e arquivos continuam onde estão.",
+  "versao": "1.6.1",
+  "arquivo": "PixelLabIA-atualizacao-1.6.1.zip",
+  "sha256": "a58e5cfc5b9f1ed761a7d4f3052d6e9f4fb8a75f4610377b4731d5537184d26a",
+  "tamanho": 293905,
+  "novidades": "O Pixel Lab IA agora sempre abre no tema escuro. O botão de tema continua trocando para o claro enquanto o app estiver aberto.",
   "lancador_minimo": 2
 }

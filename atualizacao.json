@@ -1,8 +1,8 @@
 {
-  "versao": "1.6.2",
-  "arquivo": "PixelLabIA-atualizacao-1.6.2.zip",
-  "sha256": "6d84592b5c6ab4e29b8ba1af7dd42ee21adaa52dfd2c006b82fd7de4cdfea8bc",
-  "tamanho": 294003,
-  "novidades": "Últimos ajustes do nome Pixel Lab IA: ícone, registro de erros e código da página. Os atalhos são refeitos sozinhos.",
+  "versao": "1.6.3",
+  "arquivo": "PixelLabIA-atualizacao-1.6.3.zip",
+  "sha256": "c3026370a04e9dc76067cb66d9f590a9f8a39637d70abc4fdeae87b8d217a924",
+  "tamanho": 294147,
+  "novidades": "O instalador agora se chama \"Instalar Pixel Lab IA.bat\".",
   "lancador_minimo": 2
 }

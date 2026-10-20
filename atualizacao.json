@@ -1,8 +1,8 @@
 {
-  "versao": "1.6.6",
-  "arquivo": "PixelLabIA-atualizacao-1.6.6.zip",
-  "sha256": "8d9df449230da9c9cc74bb3a2c7aaa00a3ad6b88c1b006442ca3d7aa09e09954",
-  "tamanho": 294924,
-  "novidades": "Novas cores: o Pixel Lab IA passa a usar os tons de azul da RLA.dev.",
+  "versao": "1.6.7",
+  "arquivo": "PixelLabIA-atualizacao-1.6.7.zip",
+  "sha256": "0b94322dcc581f9b6d0dee48f84407df76fb24c728fa7c837864fe88e71359ac",
+  "tamanho": 295927,
+  "novidades": "Novo visual da janela de atualização.",
   "lancador_minimo": 2
 }

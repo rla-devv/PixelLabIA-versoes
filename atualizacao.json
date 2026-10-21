@@ -1,8 +1,8 @@
 {
-  "versao": "1.7.1",
-  "arquivo": "PixelLabIA-atualizacao-1.7.1.zip",
-  "sha256": "d41fd27774cfb1c4efd559803cdfe58361451d7bbf2b7e923f50a7b2852140bc",
-  "tamanho": 301385,
-  "novidades": "Identificação de veículos mais confiável: o modelo não é mais sugerido quando o veículo aparece cortado pela borda da imagem, textos gravados na imagem (como o relógio da câmera) não são mais confundidos com veículos, e o tipo do veículo (carro, picape, van) erra menos.",
+  "versao": "1.7.2",
+  "arquivo": "PixelLabIA-atualizacao-1.7.2.zip",
+  "sha256": "62a8184f0335505cee20cc18c6b43f3dfc11f392025a79d2a273e5624e1e218e",
+  "tamanho": 301450,
+  "novidades": "A janela do Pixel Lab IA agora abre sempre maximizada.",
   "lancador_minimo": 2
 }

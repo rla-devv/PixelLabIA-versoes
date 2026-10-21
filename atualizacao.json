@@ -1,8 +1,8 @@
 {
-  "versao": "1.7.3",
-  "arquivo": "PixelLabIA-atualizacao-1.7.3.zip",
-  "sha256": "607fcd76c97c8bd7e5d6f1b5a3a9830000d33e430c17515ff44be9492b6f04e8",
-  "tamanho": 303234,
-  "novidades": "Instalação mais fácil: o instalador cria sozinho a pasta Pixel Lab IA, mesmo aberto direto do zip ou solto nos Downloads. Novo atalho \"Abrir Pixel Lab IA\" na pasta do app.",
+  "versao": "1.7.4",
+  "arquivo": "PixelLabIA-atualizacao-1.7.4.zip",
+  "sha256": "bd7f5e24a505767241122aa3c83d6ee6a69cd46a75a6c1ff93b57e2130ad96fd",
+  "tamanho": 303569,
+  "novidades": "Correções e melhorias.",
   "lancador_minimo": 2
 }

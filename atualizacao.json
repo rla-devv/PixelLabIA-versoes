@@ -1,8 +1,8 @@
 {
-  "versao": "1.6.7",
-  "arquivo": "PixelLabIA-atualizacao-1.6.7.zip",
-  "sha256": "0b94322dcc581f9b6d0dee48f84407df76fb24c728fa7c837864fe88e71359ac",
-  "tamanho": 295927,
-  "novidades": "Novo visual da janela de atualização.",
+  "versao": "1.7.0",
+  "arquivo": "PixelLabIA-atualizacao-1.7.0.zip",
+  "sha256": "6fb94cab6922233ddf017ed63ad0e3f29c670c733330ff6b0c801d8687dfac6e",
+  "tamanho": 300516,
+  "novidades": "Placas e Pessoas no vídeo ficam mais rápidas em câmeras de segurança: os trechos sem movimento são analisados com menos frequência, sem mudar o resultado.\nNovo: depois de Ler com mais precisão ou Melhorar pessoa, baixe um pacote de provas com o trecho do vídeo (sem recompressão), o quadro original e o SHA-256 de cada arquivo, ligados ao vídeo original.",
   "lancador_minimo": 2
 }

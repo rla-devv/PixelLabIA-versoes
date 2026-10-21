@@ -1,8 +1,8 @@
 {
-  "versao": "1.7.7",
-  "arquivo": "PixelLabIA-atualizacao-1.7.7.zip",
-  "sha256": "75fc494b4256a44423d3e5ddfd682bb41a1ccb5605d85d4813938502c535efca",
-  "tamanho": 303711,
+  "versao": "1.7.8",
+  "arquivo": "PixelLabIA-atualizacao-1.7.8.zip",
+  "sha256": "597720b27b6a7ee163c5e995caa7b41ead982d0e091fad1bd56400e291065be4",
+  "tamanho": 304637,
   "novidades": "Correções e melhorias.",
   "lancador_minimo": 2
 }

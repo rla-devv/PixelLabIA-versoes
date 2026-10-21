@@ -1,8 +1,8 @@
 {
-  "versao": "1.7.0",
-  "arquivo": "PixelLabIA-atualizacao-1.7.0.zip",
-  "sha256": "6fb94cab6922233ddf017ed63ad0e3f29c670c733330ff6b0c801d8687dfac6e",
-  "tamanho": 300516,
-  "novidades": "Placas e Pessoas no vídeo ficam mais rápidas em câmeras de segurança: os trechos sem movimento são analisados com menos frequência, sem mudar o resultado.\nNovo: depois de Ler com mais precisão ou Melhorar pessoa, baixe um pacote de provas com o trecho do vídeo (sem recompressão), o quadro original e o SHA-256 de cada arquivo, ligados ao vídeo original.",
+  "versao": "1.7.1",
+  "arquivo": "PixelLabIA-atualizacao-1.7.1.zip",
+  "sha256": "d41fd27774cfb1c4efd559803cdfe58361451d7bbf2b7e923f50a7b2852140bc",
+  "tamanho": 301385,
+  "novidades": "Identificação de veículos mais confiável: o modelo não é mais sugerido quando o veículo aparece cortado pela borda da imagem, textos gravados na imagem (como o relógio da câmera) não são mais confundidos com veículos, e o tipo do veículo (carro, picape, van) erra menos.",
   "lancador_minimo": 2
 }

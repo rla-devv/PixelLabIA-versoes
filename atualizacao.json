@@ -1,8 +1,8 @@
 {
-  "versao": "1.7.12",
-  "arquivo": "PixelLabIA-atualizacao-1.7.12.zip",
-  "sha256": "92115bad938722327856e076431ecb03e034b7a0dc828eb97cf838398ff2f01c",
-  "tamanho": 309053,
-  "novidades": "Identificação de veículos mais clara: cada modelo sugerido mostra a sua chance, e o aviso informa com que frequência a sugestão acerta em câmeras de segurança.",
+  "versao": "1.7.13",
+  "arquivo": "PixelLabIA-atualizacao-1.7.13.zip",
+  "sha256": "5be48f24957ce605c73a98a36c4ebdbb7af26db3e81b38c385ce3fd8c8e2c410",
+  "tamanho": 309271,
+  "novidades": "Correções de segurança e melhorias.",
   "lancador_minimo": 2
 }

@@ -1,0 +1,45 @@
+# Cria a Release de cada versão (tag vX.Y.Z) com o pacote de atualização e o instalador, para a contagem
+# de downloads. Roda quando o publicar.py do Pixel Lab IA envia o release.json de uma versão nova; o
+# atualizacao.json (o aviso de versão nova) só é publicado depois que a Release existe e confere.
+name: Release da versão
+
+on:
+  push:
+    branches: [main]
+    paths: [release.json]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Confere os arquivos da versão
+        run: |
+          set -euo pipefail
+          versao=$(jq -r .versao release.json)
+          pacote=$(jq -r .arquivo release.json)
+          [[ "$versao" =~ ^[0-9]+(\.[0-9]+)+$ ]] || { echo "versão inválida: $versao"; exit 1; }
+          [[ "$pacote" =~ ^[A-Za-z0-9._-]+\.zip$ ]] || { echo "pacote inválido: $pacote"; exit 1; }
+          echo "$(jq -r .sha256 release.json)  versoes/$pacote" | sha256sum -c -
+          echo "$(jq -r .sha256_instalador release.json)  PixelLabIA.zip" | sha256sum -c -
+          # o GitHub troca espaços por pontos no nome dos arquivos das Releases: o instalador vai com hífens
+          cp PixelLabIA.zip Pixel-Lab-IA.zip
+          jq -r .novidades release.json > notas.txt
+          echo "VERSAO=$versao" >> "$GITHUB_ENV"
+          echo "PACOTE=$pacote" >> "$GITHUB_ENV"
+
+      - name: Cria a Release (ou troca os arquivos, se ela já existe)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if gh release view "v$VERSAO" > /dev/null 2>&1; then
+            gh release upload "v$VERSAO" "versoes/$PACOTE" Pixel-Lab-IA.zip --clobber
+          else
+            gh release create "v$VERSAO" "versoes/$PACOTE" Pixel-Lab-IA.zip --target "$GITHUB_SHA" \
+              --title "Pixel Lab IA $VERSAO" --notes-file notas.txt --latest
+          fi

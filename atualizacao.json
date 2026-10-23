@@ -1,9 +1,9 @@
 {
-  "versao": "1.7.15",
-  "arquivo": "PixelLabIA-atualizacao-1.7.15.zip",
-  "sha256": "4000566ca394adb6963b60b39b92debda9d936dbded16984d6ffac3e0ea56cc5",
-  "tamanho": 310535,
+  "versao": "1.7.16",
+  "arquivo": "PixelLabIA-atualizacao-1.7.16.zip",
+  "sha256": "3f521389ac203baf59b2fcacd18e7d494277527e645f003604d969a864638389",
+  "tamanho": 312058,
   "novidades": "Correções e melhorias.",
   "lancador_minimo": 2,
-  "url": "https://github.com/rla-devv/PixelLabIA-versoes/releases/download/v1.7.15/PixelLabIA-atualizacao-1.7.15.zip"
+  "url": "https://github.com/rla-devv/PixelLabIA-versoes/releases/download/v1.7.16/PixelLabIA-atualizacao-1.7.16.zip"
 }

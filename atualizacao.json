@@ -1,9 +1,9 @@
 {
-  "versao": "1.7.14",
-  "arquivo": "PixelLabIA-atualizacao-1.7.14.zip",
-  "sha256": "b1029e613ff7958ae3a22754e73f8263bb00be8f8655a65ce6c479d77b933c5a",
-  "tamanho": 310415,
-  "novidades": "Downloads mais confiáveis: o instalador e as atualizações passam a baixar das versões publicadas no GitHub, com o endereço anterior como reserva.",
+  "versao": "1.7.15",
+  "arquivo": "PixelLabIA-atualizacao-1.7.15.zip",
+  "sha256": "4000566ca394adb6963b60b39b92debda9d936dbded16984d6ffac3e0ea56cc5",
+  "tamanho": 310535,
+  "novidades": "Correções e melhorias.",
   "lancador_minimo": 2,
-  "url": "https://github.com/rla-devv/PixelLabIA-versoes/releases/download/v1.7.14/PixelLabIA-atualizacao-1.7.14.zip"
+  "url": "https://github.com/rla-devv/PixelLabIA-versoes/releases/download/v1.7.15/PixelLabIA-atualizacao-1.7.15.zip"
 }

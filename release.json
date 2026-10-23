@@ -1,8 +1,8 @@
 {
-  "versao": "1.7.15",
-  "arquivo": "PixelLabIA-atualizacao-1.7.15.zip",
-  "sha256": "4000566ca394adb6963b60b39b92debda9d936dbded16984d6ffac3e0ea56cc5",
+  "versao": "1.7.16",
+  "arquivo": "PixelLabIA-atualizacao-1.7.16.zip",
+  "sha256": "3f521389ac203baf59b2fcacd18e7d494277527e645f003604d969a864638389",
   "instalador": "Pixel Lab IA.zip",
-  "sha256_instalador": "88e6473c0eefda314144c298117672168fb29000fa4604e1670ec1b8781df131",
+  "sha256_instalador": "867a6300bc5d35426633f3fc3716b6ff7284c095cf85389c44fd7a84f71c1f72",
   "novidades": "Correções e melhorias."
 }

@@ -1,0 +1,7 @@
+{
+  "versao": "1.7.14",
+  "arquivo": "PixelLabIA-atualizacao-1.7.14.zip",
+  "sha256": "b1029e613ff7958ae3a22754e73f8263bb00be8f8655a65ce6c479d77b933c5a",
+  "sha256_instalador": "ed20b3c52e146e2681478e6d11b3f2608e1f516c7d7070e8c55c60b23981fff5",
+  "novidades": "Downloads mais confiáveis: o instalador e as atualizações passam a baixar das versões publicadas no GitHub, com o endereço anterior como reserva."
+}

@@ -1,6 +1,13 @@
-# Cria a Release de cada versão (tag vX.Y.Z) com o pacote de atualização e o instalador, para a contagem
-# de downloads. Roda quando o publicar.py do Pixel Lab IA envia o release.json de uma versão nova; o
-# atualizacao.json (o aviso de versão nova) só é publicado depois que a Release existe e confere.
+# Cria a Release de cada versão do Pixel Lab IA (tag vX.Y.Z), para a contagem anônima de downloads
+# no painel do site. Fonte: tools/release-versoes.yml do repositório do app; o publicar.py copia para
+# .github/workflows/release.yml do repositório de versões.
+#
+# - Dispara só quando o publicar.py envia o release.json de uma versão nova.
+# - Permissão mínima: só contents: write, só neste repositório (GITHUB_TOKEN).
+# - Sem ações de terceiros: os arquivos vêm com o git do próprio runner e a Release, com o gh.
+# - Nunca apaga nem reescreve uma Release: se a da versão já existe, não faz nada.
+# - A Release leva o pacote de atualização (o arquivo principal, que o painel usa para contar cada
+#   versão) e o instalador, com o mesmo nome do .zip do site; o GitHub grava os espaços como pontos.
 name: Release da versão
 
 on:
@@ -8,38 +15,50 @@ on:
     branches: [main]
     paths: [release.json]
 
-permissions:
-  contents: write
+permissions: {}
 
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Baixa os arquivos desta versão
+        run: |
+          set -euo pipefail
+          git init -q repo
+          git -C repo fetch -q --depth 1 "https://github.com/$GITHUB_REPOSITORY" "$GITHUB_SHA"
+          git -C repo checkout -q FETCH_HEAD
 
-      - name: Confere os arquivos da versão
+      - name: Confere os arquivos
+        working-directory: repo
         run: |
           set -euo pipefail
           versao=$(jq -r .versao release.json)
           pacote=$(jq -r .arquivo release.json)
+          instalador=$(jq -r .instalador release.json)
           [[ "$versao" =~ ^[0-9]+(\.[0-9]+)+$ ]] || { echo "versão inválida: $versao"; exit 1; }
           [[ "$pacote" =~ ^[A-Za-z0-9._-]+\.zip$ ]] || { echo "pacote inválido: $pacote"; exit 1; }
+          [[ "$instalador" =~ ^[A-Za-z0-9\ ._-]+\.zip$ ]] || { echo "instalador inválido: $instalador"; exit 1; }
           echo "$(jq -r .sha256 release.json)  versoes/$pacote" | sha256sum -c -
-          echo "$(jq -r .sha256_instalador release.json)  PixelLabIA.zip" | sha256sum -c -
-          # o GitHub troca espaços por pontos no nome dos arquivos das Releases: o instalador vai com hífens
-          cp PixelLabIA.zip Pixel-Lab-IA.zip
-          jq -r .novidades release.json > notas.txt
-          echo "VERSAO=$versao" >> "$GITHUB_ENV"
-          echo "PACOTE=$pacote" >> "$GITHUB_ENV"
+          echo "$(jq -r .sha256_instalador release.json)  $instalador" | sha256sum -c -
+          jq -r .novidades release.json > ../notas.txt
+          {
+            echo "VERSAO=$versao"
+            echo "PACOTE=$pacote"
+            echo "INSTALADOR=$instalador"
+          } >> "$GITHUB_ENV"
 
-      - name: Cria a Release (ou troca os arquivos, se ela já existe)
+      - name: Cria a Release (só se ainda não existe)
+        working-directory: repo
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
           if gh release view "v$VERSAO" > /dev/null 2>&1; then
-            gh release upload "v$VERSAO" "versoes/$PACOTE" Pixel-Lab-IA.zip --clobber
-          else
-            gh release create "v$VERSAO" "versoes/$PACOTE" Pixel-Lab-IA.zip --target "$GITHUB_SHA" \
-              --title "Pixel Lab IA $VERSAO" --notes-file notas.txt --latest
+            echo "A Release v$VERSAO já existe: nada foi alterado."
+            exit 0
           fi
+          gh release create "v$VERSAO" "versoes/$PACOTE" "$INSTALADOR" --target "$GITHUB_SHA" \
+            --title "Pixel Lab IA $VERSAO" --notes-file ../notas.txt --latest

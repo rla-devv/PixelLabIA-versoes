@@ -1,8 +1,8 @@
 {
   "versao": "1.7.17",
   "arquivo": "PixelLabIA-atualizacao-1.7.17.zip",
-  "sha256": "a8c658087cbcd471c45e28e3eca1dcbd8431b191433ae06f0b72be83ef8e88ab",
-  "tamanho": 316308,
+  "sha256": "0594d1ae07822dc00aae08009075c69b45829bfb0067bfb5c0f0774cc6244910",
+  "tamanho": 316450,
   "novidades": "Instalação organizada: o Pixel Lab IA passa a ficar na pasta C:\\rla-lab\\Pixel Lab IA. Se ele estiver em outra pasta, a mudança é feita sozinha na próxima abertura.",
   "lancador_minimo": 2
 }
